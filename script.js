@@ -56,7 +56,7 @@ function displayCat() {
     };
 }
 
-// Function to display the kuromi.gif
+// Function to display the cat-heart.gif
 function displayKuromi() {
     // Clear existing content in the image container
     document.getElementById('image-container').innerHTML = '';
