@@ -7,7 +7,7 @@ function selectOption(option) {
         // Flash rainbow colors
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
-            displayCatHeart(); // Display the cat-heart.gif
+            displayKuromi(); // Display the cat.gif
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
@@ -56,7 +56,7 @@ function displayCat() {
     };
 }
 
-// Function to display the cat-heart.gif
+// Function to display the kuromi.gif
 function displayKuromi() {
     // Clear existing content in the image container
     document.getElementById('image-container').innerHTML = '';
